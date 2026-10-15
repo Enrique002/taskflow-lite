@@ -1,5 +1,5 @@
 {
-  "name": "taskflow-lite",
+  "name": "taskflow-lite", 
   "private": true,
   "version": "1.0.0",
   "type": "module",
