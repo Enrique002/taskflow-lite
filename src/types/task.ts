@@ -1,5 +1,5 @@
 /**
- * Niveles de prioridad para las tareas.
+ * Niveles de prioridad para las tareas. 
  */
 export type TaskPriority = 'baja' | 'media' | 'alta';
 
