@@ -1,5 +1,5 @@
 {
-  "name": "taskflow-lite", 
+  "name": "taskflow-lite",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -8,6 +8,8 @@
     "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -23,6 +25,7 @@
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.3.0",
     "jsdom": "^24.0.0",
     "typescript": "^5.3.3",
     "vite": "^5.1.6",

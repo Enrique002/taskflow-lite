@@ -81,8 +81,33 @@ Sigue estos pasos para ejecutar el proyecto de forma local:
 | `npm run dev` | Inicia el servidor de desarrollo Vite. |
 | `npm run build` | Comprueba tipos con `tsc` y genera el bundle optimizado para producción en `dist/`. |
 | `npm run preview` | Previsualiza localmente la versión de producción generada. |
+| `npm run deploy` | Compila la aplicación y la despliega en GitHub Pages mediante `gh-pages`. |
 | `npm run test` | Ejecuta la suite de pruebas unitarias e integración con Vitest. |
 | `npm run test:watch` | Ejecuta las pruebas en modo observador (watch mode). |
+
+---
+
+## Despliegue en GitHub Pages
+
+Este proyecto está configurado para ser desplegado fácilmente en **GitHub Pages**.
+
+### Opción 1: Despliegue Automático con GitHub Actions (Recomendado)
+
+El repositorio incluye un flujo de trabajo de GitHub Actions en `.github/workflows/deploy.yml`. Cada vez que envíes cambios (`git push`) a la rama `main` o `master`:
+
+1. En GitHub, ve a la pestaña **Settings** > **Pages** de tu repositorio.
+2. En la sección **Build and deployment**, selecciona **Source:** `GitHub Actions`.
+3. Al hacer push a la rama principal, el flujo de trabajo compilará y desplegará la aplicación automáticamente.
+
+### Opción 2: Despliegue Manual con `npm run deploy`
+
+También puedes desplegar la aplicación manualmente desde la consola ejecutando:
+
+```bash
+npm run deploy
+```
+
+Este comando ejecutará automáticamente `npm run build` (`predeploy`) y publicará el contenido del directorio `dist/` en la rama `gh-pages` de tu repositorio.
 
 ---
 
