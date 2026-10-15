@@ -4,13 +4,7 @@
 
 ---
 
-## 📸 Vista Previa
-
-*(Añade aquí una captura de pantalla de la aplicación corriendo localmente, por ejemplo `docs/preview.png`)*
-
----
-
-## ✨ Características Principales
+## Características Principales
 
 - **Gestión Completa de Tareas (CRUD):**
   - Creación de tareas con título, descripción, prioridad y fecha límite.
@@ -37,7 +31,7 @@
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **React 18** — Librería para construcción de interfaces de usuario.
 - **TypeScript (Modo Estricto)** — Tipado estricto para mayor seguridad en el código y mantenibilidad.
@@ -48,7 +42,7 @@
 
 ---
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado en tu sistema:
 
@@ -57,7 +51,7 @@ Antes de comenzar, asegúrate de tener instalado en tu sistema:
 
 ---
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 Sigue estos pasos para ejecutar el proyecto de forma local:
 
@@ -80,7 +74,7 @@ Sigue estos pasos para ejecutar el proyecto de forma local:
 
 ---
 
-## 🧪 Comandos Disponibles
+## Comandos Disponibles
 
 | Comando | Descripción |
 | :--- | :--- |
@@ -92,7 +86,7 @@ Sigue estos pasos para ejecutar el proyecto de forma local:
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 taskflow-lite/
@@ -132,7 +126,7 @@ taskflow-lite/
 
 ---
 
-## 💡 Decisiones Técnicas Relevantes
+## Decisiones Técnicas Relevantes
 
 1. **Desacoplamiento de Lógica y Presentación:**
    Toda la lógica de gestión de estado, cálculo de métricas, filtrado, búsqueda y ordenación está encapsulada dentro del hook personalizado `useTasks`. Esto facilita la reutilización y permite probar la lógica de negocio de forma aislada.
@@ -148,7 +142,7 @@ taskflow-lite/
 
 ---
 
-## 🔮 Posibles Mejoras Futuras
+## Posibles Mejoras Futuras
 
 - [ ] Soporte para etiquetas o categorías de tareas (Ej. Trabajo, Personal, Estudio).
 - [ ] Implementación de Modo Oscuro (Dark Mode).
@@ -157,6 +151,6 @@ taskflow-lite/
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Libre para fines educativos y de desarrollo personal.
